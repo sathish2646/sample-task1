@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    color: rgb(25, 230, 59); 
+    font-size: 30px;
+    
+}
+.container p{
+    background-color: aqua;
+    padding: 5px;
+     font: size 25px;
+
+}
+section h2{
+    color: blueviolet;
+    font-family: large;
+}
+.note{
+    border: 1px solid ;
+    padding: 10px;
+}
+section p{
+    margin: 10px;
+}
+.sum h3+p{
+    background-color: blanchedalmond;
+    color: brown;
+    padding: 10px;
+}
+.menu li{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-bottom:2px solid;
+    font-size: medium;
+    
+}
+ul{
+ display: flex;
+ flex-direction: column;
+ gap: 4px;
+}
+.box{
+    background-color: rgb(155, 243, 14);
+    /* border: thick; */
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;    
+}
+.highlight,#special{
+    background: rgb(189, 148, 115);
+    border: solid;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.content :nth-child(1){
+    border-bottom: double;
+    color: purple;
+    font-size: 30px;
+}
+.a{
+ color: red;
+ text-decoration: none;
+ padding: 10px;
+ background-color: rgb(183, 220, 235);
+
+}
+.div{
+    margin:20px;
+}
+.div a{
+    text-decoration: none;
+     margin-left: 10px;
+}
+.div a[title]{
+    padding: 5px;
+   
+}
+
+.alert-box {
+    background-color: red;
+    border: thick;
+    padding: 10px;
+    border-radius: 20px;
+    width:300px;
+}
+.info p{
+    background-color:lightcoral;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.info h4{
+    border-bottom: 2px solid;
+    width: 75px;
+}
