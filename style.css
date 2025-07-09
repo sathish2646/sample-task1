@@ -100,3 +100,128 @@ ul{
     border-bottom: 2px solid;
     width: 75px;
 }
+.profile :nth-child(2){
+    background-color: lightgreen;
+    padding: 10px;
+}
+.status {
+    color: green;
+    font-weight: bold;
+    border: 2px solid red;
+}
+.profile p{
+   margin-bottom: 20px;
+}
+
+article :nth-child(2) {
+    padding: 5px;
+    color: orange;
+
+}
+article :last-child{
+    padding: 5px;
+    color: rgb(221, 19, 154);
+}
+article h3{
+    background-color: aqua;
+   font-style: italic ;
+   border-bottom: 2px solid;
+}
+.nav{
+    background-color: yellow;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 20px;
+}
+.nav li{
+    margin: 10px;
+    list-style: ;
+
+}
+.nav  :last-child{
+    color: red;
+}
+.notice h2{
+    text-transform: uppercase;
+    color: blue;
+    word-spacing: 10px;
+}
+.notice p{
+    background-color: lightcoral;
+    padding: 5px;
+    border-radius: 20px;
+}
+.notice small{
+    color: gray;
+    font-style: italic;
+    margin-left: 20px;
+}
+.faq h3{
+    border: double;
+}
+.faq :nth-child(2){
+    background-color: blueviolet;
+}
+.faq :nth-child(4){
+    background-color: blue;
+}
+.faq p{
+    padding: 5px;
+    margin: 5px;
+}
+.labels .tag{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.labels{
+    margin-top: 25px;
+    margin:20px;
+}
+span{
+    background-color: red;
+    color:white;
+}
+.gallery{
+    padding: 05px;
+    border: 2px solid;
+}
+.gallery h4{
+    color: lightgreen;
+    text-decoration: underline;
+}
+.gallery p{
+    background-color: bisque;
+    font-size: 20px;
+    padding: 5px;
+}
+.summary{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid;
+}
+.note {
+    border: dashed;
+    background-color: blueviolet;
+}
+.summary h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.lead{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.bio :nth-child(2){
+    border: 1px solid;
+    padding: 5px;
+    margin:2px
+}
+.bio :nth-child(3){
+    font-style: italic;
+    color: rgb(48, 12, 250)
+}
